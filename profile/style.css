@@ -60,7 +60,8 @@ a {
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
-  background-image: url(https://wallpapers.com/images/hd/usa-malibu-pier-sunset-72ambb93y7ahlw92.webp);
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+                url(https://wallpapers.com/images/hd/usa-malibu-pier-sunset-72ambb93y7ahlw92.webp);
 }
 
 .list-inline > li {
