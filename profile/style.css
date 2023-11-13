@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background-color: #EBE3D5;
   background-image: url(https://wallpapers.com/images/hd/usa-hotel-and-casino-agci552ywkvr4aw7.webp)
 }
@@ -7,14 +8,21 @@ h1, h2, a, p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1, h2, p, .btn-purple {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
 h1 {
   color: #ffffff;
   font-size: 40px;
+  margin-top: 0;
 }
 
 h2 {
   color: #ffffff;
   font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 p {
@@ -22,6 +30,8 @@ p {
   font-size: 18px;
   padding: 24px;
   font-weight: bold;
+  margin-top: 5px;
+  line-height: 25px;
 }
 
 a {
@@ -34,7 +44,7 @@ a {
   background-color: #A91079;
   color: white;
   font-size: 18px;
-  padding: 16px 20px;
+  padding: 16px 25px;
   border-radius: 8px;
 }
 
@@ -42,6 +52,7 @@ a {
   text-decoration: none;
   background-color: rgb(221, 223, 255);
   color: #2e3cff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
 }
 
 .btn-purple, .btn-purple:hover {
@@ -60,8 +71,8 @@ a {
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-                url(https://wallpapers.com/images/hd/usa-malibu-pier-sunset-72ambb93y7ahlw92.webp);
+  background: linear-gradient(rgba(103, 87, 109, 0.5), rgba(103, 87, 109, 0.5));
+  backdrop-filter: blur(4px);
 }
 
 .list-inline > li {
@@ -73,13 +84,26 @@ a {
   list-style: none;
   padding-left: 0px;
   background-color: rgb(221, 223, 255);
-  width: 260px;
-  border-radius: 8px;
+  width: 240px;
+  border-radius: 12px;
   margin: auto;
 }
 
 i {
-  font-size: 40px;
+  font-size: 30px;
+}
+
+.photo-profil {
+  border-radius: 25%;
+  background-color: rgb(221, 223, 255);
+}
+
+#card-top {
+  margin-top: 0;
+}
+
+#card-bottom {
+  margin-bottom: 0;
 }
 
 @media (max-width: 50px) {
